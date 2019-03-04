@@ -1,0 +1,115 @@
+.news-feed-upload-image {
+    margin-bottom: 10px;
+}
+
+.news-feed-upload-image>ul>li.load {
+    background-image: url(../images/loader.gif);
+    width: 200px;
+    height: 100px;
+    background-size: 36px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border: 1px dashed #7e7e7e;
+
+}
+
+.news-feed-upload-image>ul>li{
+	overflow:hidden;
+	width: 200px;
+    height: 100px;
+	position:relative;
+	padding: 0;
+    margin-left: 5px;
+}
+
+.news-feed-upload-image>ul>li>i.trash-icn {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: -50%;
+    background: rgb(255, 255, 255);
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border-radius: 100%;
+    border: 1px dotted #ff7070;
+    color: #f00;
+    cursor: pointer;
+    transition: 0.2s;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    line-height: 28px;
+    transition:.3s ease all;
+}
+
+.news-feed-upload-image>ul>li:hover>i.trash-icn {
+	display:inherit;
+	top: 50%;
+	transition:0.2s;
+}
+
+.news-feed-upload-image>ul>li>i.trash-icn:hover{
+    background: #f00;
+    color:#fff;
+}
+
+.news-feed-upload-image>ul>li>img{
+	display: block;
+    height: 100%;
+    width: 200px;	
+}
+
+.rp {
+    padding: 0 !important;
+}
+
+.rm {
+    margin: 0 !important;
+}
+
+.list-inline {
+    list-style: none;
+}
+
+.list-inline>li:first-child {
+    padding-left: 0;
+}
+
+.news-feed-upload-image>ul>li {
+    overflow: hidden;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    padding: 0;
+    margin-left: 5px;
+}
+
+.list-inline>li {
+    display: inline-block;
+}
+
+.file-box label {
+    border: 1px dashed #0365c0;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 11px;
+    color: #0365c0;
+    cursor: pointer;
+}
+
+.file-preview label>i, .file-box label>i {
+    font-size: 28px;
+    display: block;
+}  
+
+.file-box label+input[type="file"] {
+    display: none;
+}
+
+table.table-view>tbody>tr td:first-child {
+    background-color: rgba(240, 240, 240, 0.5);
+    color: #333;
+}
